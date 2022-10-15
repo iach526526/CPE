@@ -1,6 +1,7 @@
 //you can say 7
 /*耞7计 耞:パ计癬–计竊,计竊㎝籔案计竊㎝搭,
 ㄤ畉琌7计 */ 
+
 //ex: 112 231Θ231-112= 119;119%7=0
 
 /*璝efg-bcd+fga-cde+ab琌7计,
@@ -12,7 +13,7 @@
 
 int main()
 {
-	int i=0,sum=0,turn=0;
+	int i=0,sum=0,turn=0;// turn糷癹伴磅︽Ω计∕﹚+┪- 
 	char A[arrsize];
 	while((scanf("%s",A))!=EOF)
 	{
@@ -28,7 +29,7 @@ int main()
 			
 		
 		i-=1;//―程兜index 
-		for(;i>=0;i-=3)
+		for(;i>=0;i-=3)//眖程(计)秨﹍计緇舱计舱㎝㎝案计舱㎝搭 
 		{
 			int k;
 			if (i<3)
@@ -42,7 +43,7 @@ int main()
 				
 				if(turn%2==0)
 				{
-					if(i-k<0)
+					if(i-k<0)//衡材铬 
 					{
 						break;
 					}
